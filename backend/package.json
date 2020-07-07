@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sommerprosjekt2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonor23/SommerProsjekt2020.git"
+  },
+  "author": "Sondre Eide Omland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sonor23/SommerProsjekt2020/issues"
+  },
+  "homepage": "https://github.com/Sonor23/SommerProsjekt2020#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
