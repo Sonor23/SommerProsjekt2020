@@ -1,31 +1,20 @@
 import React from 'react';
 import './App.css';
-import Frontpage from "./frontpage";
+import About from "./Components/About";
+import NavBar from "./Components/NavBar";
+import Files from "./Components/Files";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
 
 function App() {
   return (
-      /*
-    <div className="App">
-      <header className="App-header">
-       <h1>
-           Dette er en test
-       </h1>
-      </header>
-    </div>
-    */
-      <div>
-          <h1>
-              Dette er en test
-          </h1>
-          <Frontpage>
-                <h3>
-                    Baby baby
-                </h3>
-          </Frontpage>
-          <p>
-              Jeg ønsker å putte flere ting her
-          </p>
-      </div>
+      <Router>
+        <div className="App">
+          <NavBar/>
+          <Route path="/About" component={About}/>
+          <Route path="/Files" component={Files}/>
+        </div>
+    </Router>
   );
 }
 

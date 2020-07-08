@@ -31,5 +31,8 @@
       "last 1 safari version"
     ]
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

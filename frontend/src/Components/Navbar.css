@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+
+.Knapper {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.Knapper:hover{
+    background-color: lightslategrey;
+}
+
+.KnapperHøyre {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.KnapperHøyre:hover{
+    background-color: lightslategrey;
+}
+
