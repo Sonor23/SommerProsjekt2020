@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
 
 class Frontpage extends Component {
+
+    trykkPåKnapen(){
+        return <p>Vi har trykket på knappen</p>
+    }
     render() {
         return (
-            <div>
 
+            <div>
+                <nav>
+
+                </nav>
             </div>
         );
     }
