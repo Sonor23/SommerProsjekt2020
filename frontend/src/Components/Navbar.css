@@ -1,25 +1,31 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-
-
-.Knapper {
-    display: block;
-    float: left;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: red;
     color: white;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
 }
 
-.Knapper:hover{
-    background-color: lightslategrey;
+
+.Logo{
+    font-size: 6vh;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
+.Knapper {
+    display: flex;
+    color: bisque;
+    font-family: 'Luckiest Guy', cursive;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    width: 35vw;
+    list-style: none;
+}
+
+
 
 .KnapperHøyre {
     float: right;
@@ -30,7 +36,5 @@ ul {
     text-decoration: none;
 }
 
-.KnapperHøyre:hover{
-    background-color: lightslategrey;
-}
+
 

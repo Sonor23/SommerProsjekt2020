@@ -9,9 +9,9 @@ class Frontpage extends Component {
         return (
 
             <div>
-                <nav>
-
-                </nav>
+                <h1>
+                    Dette er frontpage
+                </h1>
             </div>
         );
     }
